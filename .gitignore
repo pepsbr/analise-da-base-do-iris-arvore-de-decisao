@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+
+# Dados e arquivos locais pesados
+data/
+datasets/
+*.parquet
+*.xlsx
+*.zip
